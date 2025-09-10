@@ -28,8 +28,8 @@ const lookbookImages = [
   },
   {
     id: 4,
-    src: "https://images.unsplash.com/photo-1566479179817-90a9e8040030?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=1000",
-    srcLarge: "https://images.unsplash.com/photo-1566479179817-90a9e8040030?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&h=1500",
+    src: "https://images.unsplash.com/photo-1635650804263-1a1941e14df5?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    srcLarge: "https://images.unsplash.com/photo-1635650804263-1a1941e14df5?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     alt: "Young man in trendy urban streetwear"
   },
   {

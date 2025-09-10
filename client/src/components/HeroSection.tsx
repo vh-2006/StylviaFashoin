@@ -54,7 +54,7 @@ export default function HeroSection() {
           transition={{ duration: 1, ease: "easeOut" }}
         >
           <motion.h1 
-            className="text-5xl md:text-7xl font-serif font-bold mb-6 text-stylvia-black drop-shadow-sm"
+            className="text-5xl md:text-7xl font-serif font-bold mb-6 text-stylvia-white drop-shadow-sm"
             initial={{ opacity: 0, y: 50 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 1, delay: 0.2, ease: "easeOut" }}
@@ -64,7 +64,7 @@ export default function HeroSection() {
             Stylvia
           </motion.h1>
           <motion.h2 
-            className="text-2xl md:text-3xl font-medium mb-6 text-stylvia-black/80 drop-shadow-sm"
+            className="text-2xl md:text-3xl font-medium mb-6 text-stylvia-white /80 drop-shadow-sm"
             initial={{ opacity: 0, y: 50 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 1, delay: 0.4, ease: "easeOut" }}
@@ -74,7 +74,7 @@ export default function HeroSection() {
             Redefining Everyday Clothing
           </motion.h2>
           <motion.p 
-            className="text-lg md:text-xl mb-8 text-stylvia-black/70 max-w-2xl mx-auto drop-shadow-sm"
+            className="text-lg md:text-xl mb-8 text-stylvia-white /70 max-w-2xl mx-auto drop-shadow-sm"
             initial={{ opacity: 0, y: 50 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 1, delay: 0.6, ease: "easeOut" }}
@@ -90,7 +90,7 @@ export default function HeroSection() {
           >
             <Button 
               onClick={scrollToCollections}
-              className="bg-stylvia-black hover:bg-stylvia-black/90 text-stylvia-white px-8 py-4 rounded-lg font-semibold text-lg transition-all duration-300 hover:scale-105 hover:shadow-2xl shadow-lg"
+              className="bg-stylvia-black hover:bg-stylvia-black /90 text-stylvia-white px-8 py-4 rounded-lg font-semibold text-lg transition-all duration-300 hover:scale-105 hover:shadow-2xl shadow-lg"
               data-testid="hero-cta"
             >
               Explore Collection

@@ -41,7 +41,7 @@ const products = [
     name: "Elegant Evening Dress",
     category: "party-outfits",
     price: 195,
-    image: "https://images.unsplash.com/photo-1566479179817-90a9e8040030?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=800",
+    image: "https://images.unsplash.com/photo-1568378241395-262e2debcaab?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     description: "Sophisticated evening dress perfect for special occasions",
     sizes: ["XS", "S", "M", "L", "XL"],
     colors: ["Black", "Navy", "Burgundy"]
@@ -81,7 +81,7 @@ const products = [
     name: "Men's Polo Shirt",
     category: "mens-wear",
     price: 55,
-    image: "https://images.unsplash.com/photo-1617137984095-74e4e5e3613f?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=800",
+    image: "https://plus.unsplash.com/premium_photo-1727967194155-ed1b295c76ae?q=80&w=735&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     description: "Classic polo shirt made from premium cotton pique",
     sizes: ["S", "M", "L", "XL", "XXL"],
     colors: ["White", "Navy", "Green", "Red"]
