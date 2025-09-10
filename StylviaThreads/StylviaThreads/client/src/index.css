@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Montserrat:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: hsl(45, 20%, 97%);
+  --foreground: hsl(240, 10%, 8%);
+  --card: hsl(0, 0%, 100%);
+  --card-foreground: hsl(240, 10%, 8%);
+  --primary: hsl(345, 60%, 85%);
+  --primary-foreground: hsl(240, 10%, 8%);
+  --secondary: hsl(35, 25%, 90%);
+  --secondary-foreground: hsl(240, 10%, 8%);
+  --muted: hsl(45, 15%, 94%);
+  --muted-foreground: hsl(240, 5%, 45%);
+  --accent: hsl(15, 70%, 88%);
+  --accent-foreground: hsl(240, 10%, 8%);
+  --border: hsl(240, 6%, 90%);
+  --input: hsl(240, 6%, 90%);
+  --ring: hsl(345, 60%, 85%);
+  --radius: 0.75rem;
+  
+  /* Fashion brand specific colors */
+  --stylvia-cream: hsl(45, 20%, 97%);
+  --stylvia-blush: hsl(345, 60%, 85%);
+  --stylvia-beige: hsl(35, 25%, 90%);
+  --stylvia-rose: hsl(15, 70%, 88%);
+  --stylvia-black: hsl(240, 10%, 8%);
+  --stylvia-white: hsl(0, 0%, 100%);
+}
+
+.dark {
+  --background: hsl(240, 10%, 8%);
+  --foreground: hsl(45, 20%, 97%);
+  --card: hsl(240, 8%, 12%);
+  --card-foreground: hsl(45, 20%, 97%);
+  --primary: hsl(345, 50%, 75%);
+  --primary-foreground: hsl(240, 10%, 8%);
+  --secondary: hsl(35, 15%, 20%);
+  --secondary-foreground: hsl(45, 20%, 97%);
+  --muted: hsl(240, 8%, 15%);
+  --muted-foreground: hsl(240, 5%, 65%);
+  --accent: hsl(15, 60%, 78%);
+  --accent-foreground: hsl(240, 10%, 8%);
+  --border: hsl(240, 6%, 20%);
+  --input: hsl(240, 6%, 20%);
+  --ring: hsl(345, 50%, 75%);
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground antialiased;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+@layer components {
+  .font-serif {
+    font-family: 'Playfair Display', serif;
+  }
+  
+  .font-sans {
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  .gradient-bg {
+    background: linear-gradient(135deg, var(--background) 0%, var(--secondary) 50%, var(--primary) 100%);
+  }
+  
+  .glass-effect {
+    background: rgba(255, 255, 255, 0.25);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+  }
+  
+  .hover-zoom {
+    transition: transform 0.3s ease;
+  }
+  
+  .hover-zoom:hover {
+    transform: scale(1.05);
+  }
+  
+  .parallax-scroll {
+    transform: translateZ(0);
+    will-change: transform;
+  }
+  
+  .mobile-menu {
+    transform: translateX(-100%);
+    transition: transform 0.3s ease;
+  }
+  
+  .mobile-menu.open {
+    transform: translateX(0);
+  }
+}
+
+@layer utilities {
+  .floating-shape {
+    position: absolute;
+    background: linear-gradient(135deg, var(--primary), var(--accent));
+    border-radius: 50%;
+    opacity: 0.6;
+    animation: float 8s ease-in-out infinite;
+  }
+  
+  .floating-shape:nth-child(odd) {
+    animation-delay: -4s;
+  }
+}
+
+@keyframes float {
+  0%, 100% { 
+    transform: translateY(0px) rotate(0deg); 
+  }
+  33% { 
+    transform: translateY(-15px) rotate(1deg); 
+  }
+  66% { 
+    transform: translateY(-25px) rotate(-1deg); 
+  }
+}
+
+@keyframes gradient-x {
+  0%, 100% {
+    transform: translateX(0%);
+  }
+  50% {
+    transform: translateX(-100%);
+  }
+}
+
+@keyframes pulse-soft {
+  0%, 100% {
+    opacity: 0.4;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.6;
+    transform: scale(1.05);
+  }
+}
+
+@keyframes fadeIn {
+  from { 
+    opacity: 0; 
+    transform: translateY(30px); 
+  }
+  to { 
+    opacity: 1; 
+    transform: translateY(0); 
+  }
+}
+
+@keyframes slideUp {
+  from { 
+    opacity: 0; 
+    transform: translateY(50px); 
+  }
+  to { 
+    opacity: 1; 
+    transform: translateY(0); 
+  }
+}
+
+@keyframes zoomIn {
+  from { 
+    opacity: 0; 
+    transform: scale(0.9); 
+  }
+  to { 
+    opacity: 1; 
+    transform: scale(1); 
+  }
+}

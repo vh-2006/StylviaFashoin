@@ -1,0 +1,111 @@
+Prompt:
+Create a modern, stylish, and fully responsive clothing brand website for Stylvia. The website must ONLY focus on clothing customers (no unrelated images or products). It should look professional yet creative, with smooth animations, floating effects, and an elegant fashion vibe.
+
+Website Sections:
+
+Navigation Bar
+
+Stylvia logo (text/logo placeholder).
+
+Links: Home | About | Collections | Lookbook | Blog | Contact.
+
+Sticky navbar with floating hover effects.
+
+Responsive hamburger menu for mobile.
+
+Hero Section (Landing Page)
+
+Fullscreen fashion banner showing stylish clothing only.
+
+Tagline: “Stylvia – Redefining Everyday Clothing”.
+
+Floating animated text + CTA button (“Explore Collection”).
+
+Subtle background animation (like moving gradient or floating shapes).
+
+About Us
+
+Brand story: “Stylvia is a fashion brand dedicated to making everyday clothing trendy, comfortable, and affordable.”
+
+Mission & Vision with animated icons.
+
+Collections (Main Clothing Showcase)
+
+Grid gallery of clothing categories: Men’s Wear, Women’s Wear, Everyday Casual, Party Outfits.
+
+Floating hover effects: image zoom, animated text overlay.
+
+Buttons: “View More” or “Shop Now”.
+
+Lookbook (Creative Gallery)
+
+A fashion photoshoot gallery with only clothing-related images.
+
+Floating parallax scroll effects.
+
+Clickable lightbox view for enlarging outfits.
+
+Why Stylvia?
+
+Floating card animations explaining uniqueness: Affordable Trends, Premium Fabrics, Inspired by Global Fashion.
+
+Testimonials
+
+Animated slider with 2–3 customer quotes (focused on clothing satisfaction).
+
+Blog Section
+
+Fashion-related sample posts like: “Top 5 Streetwear Trends”, “How to Style Your Everyday Casuals”.
+
+Floating card effect for articles.
+
+Newsletter Signup
+
+Floating email subscription box: “Stay in style with Stylvia – Subscribe for latest trends.”
+
+Contact Us
+
+Email: contact.stylvia@gmail.com
+
+Phone: +91 8329517001
+
+Simple floating contact form (Name, Email, Message).
+
+Social icons (Instagram, Facebook).
+
+Footer
+
+Quick links.
+
+Social icons.
+
+Newsletter signup.
+
+Floating animated line:
+“© 2025 Stylvia. This website is created for educational purposes only.”
+
+Design Guidelines:
+
+Color palette: cream, blush pink, beige, black, white (luxury fashion tones).
+
+Fonts: Montserrat / Poppins / Playfair Display (stylish modern).
+
+Floating animations (hover effects, parallax scrolling, smooth fade-in).
+
+Sticky navbar & smooth scrolling transitions.
+
+Fully responsive (desktop + mobile).
+
+Features:
+
+Floating hero banner with animated text.
+
+Creative parallax scrolling in gallery/lookbook.
+
+Hover zoom effects on clothing items.
+
+Animated newsletter form.
+
+SEO-friendly meta tags.
+
+Favicon placeholder for Stylvia logo.
